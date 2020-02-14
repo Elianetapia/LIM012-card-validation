@@ -8,8 +8,9 @@ la fabricación, venta y distribución de plasticos de crédito y débito para d
 El objetivo principal de la creación de esta herramienta web es la de 
 verificar que los números ingresados en nuestros productos sean válidos
 y puedan garantizar la seguridad a los usuarios de nuestros clientes al momento de su uso.
-* Cómo crees que el producto que estás creando está resolviendo sus problemas.
+* Finalidad:
 Al adicionar esta aplicación web en el proceso de fabricación de estos plasticos bancarios, podremos garantizar que el producto que llegue a manos de nuestros clientes, cumplan con el algoritmo requerido para garantizar la seguridad al momento de hacer uso de nuestros plasticos bancarios
+
 
 ### Interfaz de usuario (UI)
 
