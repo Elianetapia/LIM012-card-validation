@@ -1,5 +1,6 @@
-# Tarjeta de crédito válida
-En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
+# Validador de tarjetas
+
+## Aplicación web que permitira al usuario verificar si 
 
 * USUARIO:
 Herramienta, aplicacion web diseñada para una empresa que se encarga de 
@@ -9,39 +10,14 @@ El objetivo principal de la creación de esta herramienta web es la de
 verificar que los números ingresados en nuestros productos sean válidos
 y puedan garantizar la seguridad a los usuarios de nuestros clientes al momento de su uso.
 * FINALIDAD:
-Al adicionar esta aplicación web en el proceso de fabricación de estos plasticos bancarios, podremos garantizar que el producto que llegue a manos de nuestros clientes, cumplan con el algoritmo requerido para garantizar la seguridad al momento de hacer uso de nuestros plasticos bancarios
+Al adicionar esta aplicación web en el proceso de fabricación de estos plasticos bancarios, podremos garantizar que el producto que llegue a manos de nuestros clientes, cumplan con el algoritmo requerido para garantizar la seguridad al momento de hacer uso de nuestros plasticos bancarios<br>
+### Prototipado y Maquetacion
 PROTOTIPO:<br>
-![alt text](https://github.com/Elianetapia/LIM012-card-validation/blob/master/img/PROTOTIPO.jpg)
+![alt text](https://github.com/Elianetapia/LIM012-card-validation/blob/master/img/PROTOTIPO.jpg) <br>
 
 MAQUETA:<br>
-![alt text](https://github.com/Elianetapia/LIM012-card-validation/blob/master/img/CREDIT%20CARD%20VALIDATOR.png)
+![alt text](https://github.com/Elianetapia/LIM012-card-validation/blob/master/img/CREDIT%20CARD%20VALIDATOR.png)<br>
 
-### Interfaz de usuario (UI)
-
-La interfaz debe permitir al usuario:
-
-* Insertar el número que queremos validar.
-* Ver el resultado si es válido o no.
-* Ocultar todos los dígitos de su número de tarjeta menos los últimos
-4 caracteres.
-* No debe poder ingresar un campo vacío.
-
-### UX (Diseño de experiencia de usuario)
-
-Antes de iniciar a codear, debes entender el problema que quieres solucionar y
-cómo tu aplicación lo soluciona.
-
-* Trabaja tu primer prototipo con papel y lápiz (blanco y negro).
-* Luego valida esta solución con una compañera (pedir feedback).
-* Toma lo aprendido al momento de validar tu primer prototipo y desarrolla un
-  nuevo prototipo usando alguna herramienta para diseño de prototipos
-  ([Balsamiq](https://balsamiq.com/), [Figma](https://www.figma.com/),
-  [Google Slides](https://www.google.com/intl/es/slides/about/), etc.)
-Estos puntos los presentarás en el `README.md`.
-
-### Scripts / Archivos
-
-#### General
 
 ##### `README.md`
 
