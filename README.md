@@ -1,16 +1,20 @@
 # Tarjeta de crédito válida
 En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
 
-* Usuarios:
+* USUARIO:
 Herramienta, aplicacion web diseñada para una empresa que se encarga de 
 la fabricación, venta y distribución de plasticos de crédito y débito para distintas empresas del sector bancario.
-* Objetivo:
+* OBJETIVO:
 El objetivo principal de la creación de esta herramienta web es la de 
 verificar que los números ingresados en nuestros productos sean válidos
 y puedan garantizar la seguridad a los usuarios de nuestros clientes al momento de su uso.
-* Finalidad:
+* FINALIDAD:
 Al adicionar esta aplicación web en el proceso de fabricación de estos plasticos bancarios, podremos garantizar que el producto que llegue a manos de nuestros clientes, cumplan con el algoritmo requerido para garantizar la seguridad al momento de hacer uso de nuestros plasticos bancarios
 
+PROTOTIPO:
+https://github.com/Elianetapia/LIM012-card-validation/blob/master/img/prototipado.jfif
+MAQUETA:
+https://github.com/Elianetapia/LIM012-card-validation/blob/master/img/CREDIT%20CARD%20VALIDATOR.png
 
 ### Interfaz de usuario (UI)
 
