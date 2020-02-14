@@ -10,12 +10,10 @@ verificar que los números ingresados en nuestros productos sean válidos
 y puedan garantizar la seguridad a los usuarios de nuestros clientes al momento de su uso.
 * FINALIDAD:
 Al adicionar esta aplicación web en el proceso de fabricación de estos plasticos bancarios, podremos garantizar que el producto que llegue a manos de nuestros clientes, cumplan con el algoritmo requerido para garantizar la seguridad al momento de hacer uso de nuestros plasticos bancarios
+PROTOTIPO:<br>
+![alt text](https://github.com/Elianetapia/LIM012-card-validation/blob/master/img/PROTOTIPO.jpg)
 
-PROTOTIPO:
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
-https://github.com/Elianetapia/LIM012-card-validation/blob/master/img/PROTOTIPO.jpg
-
-MAQUETA:
+MAQUETA:<br>
 ![alt text](https://github.com/Elianetapia/LIM012-card-validation/blob/master/img/CREDIT%20CARD%20VALIDATOR.png)
 
 ### Interfaz de usuario (UI)
