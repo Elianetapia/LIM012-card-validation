@@ -5,34 +5,33 @@
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+
     <h1>Válidame</h1>
-    <!--Nombre de la pagina-->
+
     <header>Válidador de tarjetas de crédito y débito</header>
+
     <main>
-  <!--Tabla mostrando breve descripcion de herramienta mas imagen de logos de
-  empresas con las que trabajamos-->
-<table border="10" class="egt">
-  <td>Herramienta online que permite verificar<br>si el número de tarjeta
-    ingresado cumple<br>con el algoritmo requerido para ser una<br>tarjeta segura
-    que pueda ser utilizado sin<br>problemas por los usuarios de nuestro<br>cliente
-    el banco.
-  </td>
-  <td>img tarjeta virtual</td>
-</table>
+
+      <div class="">
+        <td>Herramienta online que permite verificar<br>si el número de tarjeta
+          ingresado cumple<br>con el algoritmo requerido para ser una<br>tarjeta segura
+          que pueda ser utilizado sin<br>problemas por los usuarios de nuestro<br>cliente
+          el banco.
+        </td>
+        <td>img tarjeta virtual</td>
+      </div>
+
+      <form name="number">
+        Ingrese número de tarjeta:
+        <input id="creditCardNumber" type="text" placeholder="Ingrese número de tarjeta"
+        maxlength="16"><br>
+        <button name="sendButton" id="sendButton" type="button"
+        >Enviar</button>
+      </form>
     </main>
-    <footer>
-  <!--input para número de tarjeta máximo 16 caracteres-->
-<form name="number">
-Ingrese número de tarjeta:
-<div>
-<input id="creditCardNumber" type="text" placeholder="Ingrese número de tarjeta"
-maxlength="16"><br>
-<button name="sendButton" id="sendButton" type="button"
->Enviar</button>
-</form>
-</div>
-    </footer>
+
     <script src="index.js" type="module"></script>
   </body>
 </html>
