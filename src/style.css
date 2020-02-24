@@ -1,0 +1,38 @@
+body{
+    background: #D7F48A;
+}
+h1{
+    background-color: #2DA43B;
+    font-size: 50px;
+    text-align: center;
+}
+
+header{
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+p{
+    font-size: 25px;
+    text-align: left;
+}
+
+form{
+    font-size: 20px;
+    text-align: center;
+}
+
+input{
+    font-size: 20px;
+}
+select{
+    text-align: left;
+}
+
+button{
+    background-color: #2DA43B;
+    font-size: 20px;
+    text-align: center;
+}
