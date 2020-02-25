@@ -5,6 +5,11 @@ h1{
     background-color: #2DA43B;
     font-size: 50px;
     text-align: center;
+    border: solid 5px;
+    border-color: #71BD43;
+    border-radius: 20px;
+    margin: 50px;
+    
 }
 
 header{
@@ -13,11 +18,31 @@ header{
 }
 
 
-
-p{
-    font-size: 25px;
-    text-align: left;
+.contTextLogo{
+    background-color: #2DA43B;
+    margin: 50px;
+    border: solid 5px;
+    border-color: #71BD43;
+    border-radius: 20px;
+    overflow: hidden; 
 }
+
+.texto{
+    float: right;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.logoTarjeta{
+    float: left;
+    width: 0.05%;
+    height: 0.05%;
+    top:  10px;
+    left: 5px;
+
+}
+
 
 form{
     font-size: 20px;

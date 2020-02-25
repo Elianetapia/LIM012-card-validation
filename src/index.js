@@ -4,9 +4,14 @@ const creditCardNumber = document.getElementById('creditCardNumber');
 const sendButton = document.getElementById('sendButton');
 const respuestaUsuario = document.getElementById('respuesta-usuario');
 
-const informacionUsuario = (event) => {
+const capturarInformacionUsuario = (event) => {
    event.preventDefault();
-   respuestaUsuario.innerText = `Tu tarjeta ${validator.maskify(creditCardNumber.value)} es ${validator.isValid(creditCardNumber.value)}`
+   if(validator.isValid(creditCardNumber.value)){
+      respuestaUsuario.innerText = `Tu tarjeta ${validator.maskify(creditCardNumber.value)} es válida`
+   }else{
+      respuestaUsuario.innerText = `Tu tarjeta ${validator.maskify(creditCardNumber.value)} no es válida`
+   }
+   
 };
 
-sendButton.addEventListener('click', informacionUsuario);
+sendButton.addEventListener('click', capturarInformacionUsuario);
