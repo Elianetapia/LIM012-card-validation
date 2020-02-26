@@ -23,7 +23,7 @@ const arrayReversed = reverseArray(newArray);
 function pares(){
   const sonPares = [];
   for (let i=0; i<arrayReversed.length; i++) {
-       if (i/2 === Math.round(i/2)) {
+       if (i%2 > 0) {
           sonPares.push(arrayReversed[i]);
        }
     }
@@ -35,7 +35,7 @@ const evenNumbers = pares(arrayReversed);
 function impares(){
   const numerosImpares = [];
   for (let i=0; i<arrayReversed.length; i++) {
-       if (i%2 > 0) {
+       if (i/2 === Math.round(i/2)) {
           numerosImpares.push(arrayReversed[i]);
        }
     }
@@ -84,6 +84,7 @@ function hallandoResiduos(){
     return false;
 }
 }
+hallandoResiduos(allNumbers);
 
 const validator = {
   isValid: (creditCardNumber) => {
