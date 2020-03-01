@@ -7,7 +7,7 @@ const respuestaUsuario = document.getElementById('respuesta-usuario');
 const capturarInformacionUsuario = (event) => {
    event.preventDefault();
    if(validator.isValid(creditCardNumber.value)){
-      respuestaUsuario.innerText = `Tu tarjeta ${validator.maskify(creditCardNumber.value)} es válida`
+      respuestaUsuario.innerText = `Tu tarjeta ${validator.maskify(creditCardNumber.value)} es válida`;
    }else{
       respuestaUsuario.innerText = `Tu tarjeta ${validator.maskify(creditCardNumber.value)} no es válida`
    }

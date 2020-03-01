@@ -1,16 +1,16 @@
-function stringToArray(creditCardNumber){
+const stringToArray = (creditCardNumber) => {
   let creditCardArray = [];
   for (let i = 0; i < creditCardNumber.length; i++) {
-      const charToNumber = parseInt(creditCardNumber.charAt(i))
+      let charToNumber = parseInt(creditCardNumber.charAt(i))
       creditCardArray.push(charToNumber);
   }
   return creditCardArray;
 }
 
-const newArray = stringToArray(creditCardNumber);
+let newArray = stringToArray(creditCardNumber);
 
-function reverseArray(newArray){
-  const reversedArray = [];
+const reverseArray = (newArray) => {
+  let reversedArray = [];
   for(let i=newArray.length -1; i>=0 ; i--){
     let number = parseInt(newArray[i]);
     reversedArray.push(number);
@@ -18,10 +18,10 @@ function reverseArray(newArray){
 return reversedArray;
 }
 
-const arrayReversed = reverseArray(newArray);
+let arrayReversed = reverseArray(newArray);
 
-function pares(){
-  const sonPares = [];
+const pares = (arrayReversed) => {
+  let sonPares = [];
   for (let i=0; i<arrayReversed.length; i++) {
        if (i%2 > 0) {
           sonPares.push(arrayReversed[i]);
@@ -30,10 +30,10 @@ function pares(){
   return sonPares;
 }
 
-const evenNumbers = pares(arrayReversed);
+let evenNumbers = pares(arrayReversed);
 
-function impares(){
-  const numerosImpares = [];
+const impares = (arrayReversed) => {
+  let numerosImpares = [];
   for (let i=0; i<arrayReversed.length; i++) {
        if (i/2 === Math.round(i/2)) {
           numerosImpares.push(arrayReversed[i]);
@@ -42,49 +42,48 @@ function impares(){
   return numerosImpares;
 }
 
-const oddNumbers = impares(arrayReversed);
+let oddNumbers = impares(arrayReversed);
  
-function doubleNumbers(){
+const doubleNumbers = (evenNumbers) => {
   let sumatoria = [];
   for (let i=0; i<evenNumbers.length; i++){
     let multiplied = evenNumbers[i] * 2
     if(multiplied >=10){
-      sumatoria.push(multiplied%9);
+      sumatoria.push((multiplied-1)%9 + 1);
       }else{
       sumatoria.push(multiplied);
       }
   }
   return sumatoria;
 }
+ 
+let finalEvenNumbers = doubleNumbers(evenNumbers);
 
-const finalEvenNumbers = doubleNumbers(evenNumbers);
-
-function joinNumbers(oddNumbers, finalEvenNumbers){
-  const numeroTotal = oddNumbers.concat(finalEvenNumbers);
+const joinNumbers = (oddNumbers, finalEvenNumbers) => {
+  let numeroTotal = oddNumbers.concat(finalEvenNumbers);
   return numeroTotal
 }
 
-const totalNumbers = joinNumbers(oddNumbers, finalEvenNumbers);
+let totalNumbers = joinNumbers(oddNumbers, finalEvenNumbers);
 
-function addTotalNumbers(){
+const addTotalNumbers = (totalNumbers) => {
 let suma = 0;
 for (let i=0; i<totalNumbers.length; i++){
         suma = suma + totalNumbers[i];     
-        console.log(suma);
       }
 return suma;
-};
+}
 
-const allNumbers = addTotalNumbers(totalNumbers);
+let allNumbers = addTotalNumbers(totalNumbers)
 
-function hallandoResiduos(){
-  if (allNumbers % 10 === 0) {
+const hallandoResiduos = (allNumbers) => {
+  if (allNumbers % 10 == 0) {
     return true;
 } else {
     return false;
 }
 }
-hallandoResiduos(allNumbers);
+
 
 const validator = {
   isValid: (creditCardNumber) => {
@@ -97,7 +96,7 @@ const validator = {
     const allNumbers = addTotalNumbers(totalNumbers);
     const finalValue = hallandoResiduos(allNumbers);
     return finalValue;
-  },
+  }, 
 
   maskify: (creditCardNumber) => {
     return creditCardNumber.replace(/\d(?=\d{4})/g, "#");

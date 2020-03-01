@@ -8,39 +8,44 @@ h1{
     border: solid 5px;
     border-color: #71BD43;
     border-radius: 20px;
-    margin: 50px;
+    margin-top: 50px;
+    margin-left: 170px;
+    width: 1010px;
     
 }
 
 header{
     font-size: 25px;
     text-align: center;
+    border: 50px;
 }
 
 
 .contTextLogo{
+    display: flex;
     background-color: #2DA43B;
-    margin: 50px;
-    border: solid 5px;
+    margin: 30px;
+    margin-left: 170px;
+    border: solid 6px;
     border-color: #71BD43;
     border-radius: 20px;
-    overflow: hidden; 
+    align-items: stretch;
+    width: 1000px;
 }
 
 .texto{
-    float: right;
-    text-align: center;
     font-size: 25px;
+    text-align: justify;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 100px;
 }
 
 
 .logoTarjeta{
-    float: left;
-    width: 0.00005%;
-    height: 0.00005%;
-    top:  10px;
-    left: 5px;
-
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 90px;
 }
 
 
